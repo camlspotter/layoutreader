@@ -16,5 +16,8 @@ dependencies = [
     "typer>=0.20.0",
 ]
 
-[tool.setuptools.packages.find]
-include = ["v3*"]
+[tool.setuptools]
+packages = ["layoutreader"]
+
+[tool.setuptools.package-dir]
+layoutreader = "v3"
