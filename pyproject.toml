@@ -15,3 +15,6 @@ dependencies = [
     "transformers>=4.57.3",
     "typer>=0.20.0",
 ]
+
+[tool.setuptools.packages.find]
+include = ["v3*"]
